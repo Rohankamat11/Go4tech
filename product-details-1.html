@@ -176,7 +176,7 @@
    <br>
    <br><br>
    <br>
-   <a href="assets/Go4tech-courses/Android  Workshop .pdf" download="/Android-Workshop.pdf" class="btn"
+   <a href="assets/Go4tech-courses/Android  Workshop .pdf" download="/Android-Workshop.pdf" onclick="myfunction()" class="btn"
       style="margin-left: 100px">For More Details</a>
    <!-- end single product details -->
 
@@ -309,6 +309,11 @@
       smallImg[3].onclick = function () {
          productImg.src = smallImg[3].src;
       }
+   </script>
+ <script>
+     function myfunction(){
+        alert("Download Sucessfull !");
+     }
    </script>
 </body>
 
